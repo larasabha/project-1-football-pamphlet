@@ -22,3 +22,13 @@ void Dialog::on_pushButton_clicked()
     desplayteam.exec();
 }
 
+void Dialog::on_pushButton_2_clicked() 
+{
+    QMessageBox::information(this, "Email Box", "Contact us at helpdesk@yahoo.com");
+}
+
+void Dialog::on_pushButton_3_clicked() 
+{
+    QMessageBox::warning(this, "Phone Box", "Contact us at (714)-899-9546");
+}
+
