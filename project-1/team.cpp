@@ -52,9 +52,9 @@ QString getRoof(){
 void setRoof(QString roof){
     this->roof = roof;
 }
-QString getOpenDate(){
-    return openDate;
-}
 void setOpenDate(QString openDate){
     this->openDate = openDate;
+}
+QString getOpenDate(){
+    return openDate;
 }
