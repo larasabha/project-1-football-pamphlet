@@ -29,8 +29,8 @@ public:
     void setSurface(QString surface);
     QString getRoof();
     void setRoof(QString roof);
-    QString getOpenDate();
     void setOpenDate(QString openDate);
+    QString getOpenDate();
 
 private:
     QString name;
